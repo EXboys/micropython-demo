@@ -12,7 +12,7 @@ args = {'var':'test','name':[1,2,3,4,5],'display':'1'}
 html=microtpl.render('index.html',args)
 print(html)
 ```
-
+eg:
 ```html
 <p>{var}{var|b}</p>
 {for value in name}
