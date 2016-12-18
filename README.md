@@ -2,7 +2,9 @@
 micropython-demo
 
 # microtpl
-A template that likes jinja2 or smarty in PHP,it can works with miropython. 
+A template that likes jinja2 or smarty in PHP,it can works with miropython. I have test it in esp8266 witch's mem size is just 36k.
+microtpl only spends 1000 bytes mem when you run it
+
 
 ```python
 import mirotpl
